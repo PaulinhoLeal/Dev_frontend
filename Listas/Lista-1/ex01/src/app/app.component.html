@@ -1,0 +1,24 @@
+<div class ="gestor-wrapper">
+    <div class ="gestor">
+        <span>Informações do gestor(a)</span>
+        <p>Nome:{{gestor.nome}}</p>
+        <p>Cargo:{{gestor.cargo}}</p>
+        <p>Funcioanl:{{gestor.funcional}}</p>
+    </div>
+
+    <div class ="subordinado">
+        <p class="sub">Subordinados:</p>
+        <div *ngFor="let subordinado of gestor.nomeSubordinado"></div>
+        <p>Nome:{{subordinado}}</p>
+    </div>
+</div>
+
+<div class ="analistas-wrapper">
+    <div class ="analista" *ngFor="let analista of analistas">
+        <span>Informações do analista(a)</span>
+        <p>Nome:{{analista.nome}}</p>
+        <p>Cargo:{{analista.cargo}}</p>
+        <p>Funcioanl:{{analista.funcional}}</p>
+        <p>Gestor:{{analista.nomeGestor}}</p>
+    </div>
+</div> 
