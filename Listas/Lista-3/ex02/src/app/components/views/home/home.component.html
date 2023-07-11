@@ -1,0 +1,13 @@
+
+
+<div class = "main">
+    <div class ="jogo" *ngFor="let jogo of jogos">
+        <h1>{{jogo.nome}}</h1>
+        <img src="{{jogo.img}}" >
+        <div class = "description">
+            <p>Genero:{{jogo.genero}}</p>
+            <p>Data de lançamento:{{jogo.lancamento}}</p>
+            <p>DESCRIÇÃO:{{jogo.descricao}}</p>
+        </div>
+    </div>
+</div>

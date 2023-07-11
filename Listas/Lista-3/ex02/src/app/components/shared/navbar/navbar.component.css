@@ -1,0 +1,21 @@
+
+ul {
+    display: flex;
+    margin: 0%;
+    top: 0; 
+    width: 100%;
+    background-color: rgb(105, 105, 138);
+
+    
+}
+ul a {
+    margin: 10px;
+    color: brown;
+    font-size:x-large;
+    font-family: fantasy;
+    cursor: pointer;
+    align-items: center;
+}
+ul a:hover {
+    color: rgb(207, 49, 49);
+}
