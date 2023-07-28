@@ -1,4 +1,4 @@
-export class Animal {
+/*export class Animal {
     private id!:string;
     private nome:string;
     private raca:string;
@@ -10,4 +10,4 @@ export class Animal {
         this.raca=raca;
         this.peso=peso;
     }
-}
+}*/

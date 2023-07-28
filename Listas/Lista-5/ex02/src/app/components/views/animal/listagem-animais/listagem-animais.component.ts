@@ -1,14 +1,14 @@
 import { Component, OnInit } from '@angular/core';
-import { AnimalService } from 'src/app/service/animal.service';
-import { Animal } from '../../model/animal';
+
+
 
 @Component({
   selector: 'app-listagem-animais',
   templateUrl: './listagem-animais.component.html',
   styleUrls: ['./listagem-animais.component.css']
 })
-export class ListagemAnimaisComponent implements OnInit {
-
+export class ListagemAnimaisComponent  {}
+/*
   constructor(private animalService: AnimalService){}
 
   public animais!:Animal[];
@@ -20,3 +20,5 @@ export class ListagemAnimaisComponent implements OnInit {
     });  
   }
 }
+*/
+

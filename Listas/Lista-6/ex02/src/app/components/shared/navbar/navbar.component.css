@@ -1,0 +1,37 @@
+
+.menu{
+   padding: 0;
+   margin: 0;
+}
+.logo>h1{
+    text-align: center;
+    padding: 8px;   
+    height: 50px;
+    margin: 0;
+}
+.barra{
+    list-style-type: none;
+    overflow:hidden;
+    background-color: rgb(4, 30, 21);
+    margin: 0;
+}
+li{
+   float: left;
+   
+   float: bottom;
+}
+
+li a{
+    text-decoration: none;
+    text-align: center;
+    width: 60px;
+    padding:30px;
+    color: white;
+    font-size: 30px; 
+    font-weight:bolder;
+    
+}
+li a:hover{
+    background-color: rgb(38, 74, 61);
+    transition:0.5s all;
+}

@@ -1,4 +1,4 @@
-import { Injectable } from "@angular/core";
+/*import { Injectable } from "@angular/core";
 import { Animal } from "../components/views/model/animal";
 import { Observable } from "rxjs";
 import {HttpClient} from "@angular/common/http";
@@ -14,3 +14,4 @@ export class AnimalService{
         return this.http.get<Animal[]>("http://localhost:8050/listar-animais");
     }
 }
+*/
