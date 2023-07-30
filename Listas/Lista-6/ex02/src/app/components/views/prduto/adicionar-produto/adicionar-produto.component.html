@@ -1,0 +1,11 @@
+<section class="main">
+    <form class="formulario">
+        <input type="text" [(ngModel)]="nome" placeholder="Insira o nome do produto">
+        <input type="text" [(ngModel)]="descricao" placeholder="Insira a descrição do produto">
+        <input type="text" [(ngModel)]="imagem" placeholder="Insira a imagem do produto">
+        <input type="text" [(ngModel)]="valor" placeholder="Insira o valor do produto">
+        <input type="text" [(ngModel)]="categoria" placeholder="Insira a categoria do produto">
+
+        <button (click)="addProduto()">Enviar</button>
+    </form>
+</section>

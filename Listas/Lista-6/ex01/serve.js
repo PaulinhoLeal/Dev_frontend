@@ -4,8 +4,10 @@ const app = express()
 const port = 8050
 const connectionString = "mongodb+srv://admin:admin123@appdatabase.3r1zzwb.mongodb.net/ "
 const Produto = require("./models/produto")
-app.use(express.json)
+const cors=require('cors')
 
+app.use(express.json())
+app.use(cors())
 
 app.get("/listar-produtos", async (req,res)=>{
     try {
@@ -17,7 +19,7 @@ app.get("/listar-produtos", async (req,res)=>{
     }
 })
 
-app.post("/adiconar-produtos",async (req,res)=>{
+app.post("/adicionar-produtos",async (req,res)=>{
     let {nome,descricao,img,valor,categoria}=req.body
 
     let produto = {
