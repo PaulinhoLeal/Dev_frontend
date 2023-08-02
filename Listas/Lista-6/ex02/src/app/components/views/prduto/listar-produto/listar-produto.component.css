@@ -1,11 +1,44 @@
 .main{
-    padding: 0;
-    margin: 0;
+    padding: 25px;
     display: flex;
-    border-color: tomato;
+    background-color: tomato;
+
    
 
 }
 .lista-produtos{
-        font-size: 55px;
+        padding:10px ;
+        font-size: 108%;
+        text-align: center;
+        border: 2px solid black ;
+        font-weight: 600;
+    
+}
+.comprar{   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+.valor{
+    display: flex;
+    background-color: rgb(69, 207, 69);
+    width: 100px;
+    justify-content: center;
+    border-radius: 14px;
+}
+.comprar button{
+    border-radius: 6px;
+    width: 100px;
+    background-color: #ee5454;
+    font-weight: 600;
+}
+.comprar button:hover{
+    background-color: #a96262;
+    width: 102px;
+    height: 24px;
+   
+    
 }
