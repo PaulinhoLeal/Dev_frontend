@@ -7,16 +7,15 @@ import { Produto } from '../model/produto';
   providedIn: 'root'
 })
 export class ProdutoService {
-  private rota:string='http://localhost:8050/listar-produtos';
-
+ 
   constructor(private http:HttpClient) { }
 
   public getProduto():Observable<Produto[]>{
-    return this.http.get<Produto[]>(this.rota);  
+    return this.http.get<Produto[]>("http://localhost:8050/listar-produtos");  
   }
 
   public saveProduto(produto:Produto):Observable<Produto[]>{
-    return this.http.post<Produto[]>(this.rota,produto);  
+    return this.http.post<Produto[]>("http://localhost:8050/adicionar-produtos",produto);  
   }
    
 }

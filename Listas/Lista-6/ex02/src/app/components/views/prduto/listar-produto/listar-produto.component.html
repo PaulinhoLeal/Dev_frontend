@@ -1,8 +1,8 @@
 <section class="main">
     <div class="lista-produtos" *ngFor="let produto of produtos">
         <h1>{{produto.nome}}</h1>
+        <img [src] ="produto.imagem">
         <p>Descrição:{{produto.descricao}}</p>
-        <p>{{produto.imagem}}</p>
         <p>Categoria:{{produto.categoria}}</p>
         <div class="comprar">
             <p class="valor">R${{produto.valor}}</p>
