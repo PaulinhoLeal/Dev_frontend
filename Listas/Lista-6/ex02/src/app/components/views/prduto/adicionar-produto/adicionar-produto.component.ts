@@ -11,7 +11,7 @@ export class AdicionarProdutoComponent {
   
   public nome!:string;
   public descricao!:string;
-  public imagem!:string;
+  public img!:string;
   public valor!:number;
   public categoria!:string;
 
@@ -20,7 +20,7 @@ export class AdicionarProdutoComponent {
   public addProduto(){
     let produto = new Produto(this.nome,
                               this.descricao,
-                              this.imagem,
+                              this.img,
                               this.valor,
                               this.categoria);
       this.produtoService.saveProduto(produto).subscribe((response)=>{

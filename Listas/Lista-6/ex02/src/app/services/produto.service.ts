@@ -7,15 +7,16 @@ import { Produto } from '../model/produto';
   providedIn: 'root'
 })
 export class ProdutoService {
+  private readonly urlBase:string="http://localhost:8050"
  
   constructor(private http:HttpClient) { }
 
   public getProduto():Observable<Produto[]>{
-    return this.http.get<Produto[]>("http://localhost:8050/listar-produtos");  
+    return this.http.get<Produto[]>(`${this.urlBase}/listar-produtos`);  
   }
 
   public saveProduto(produto:Produto):Observable<Produto[]>{
-    return this.http.post<Produto[]>("http://localhost:8050/adicionar-produtos",produto);  
+    return this.http.post<Produto[]>(`${this.urlBase}/adicionar-produtos`,produto);  
   }
    
 }
