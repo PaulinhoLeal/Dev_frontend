@@ -1,3 +1,13 @@
-<h1>Bem-vindo ao Pet_world</h1>
+<div class="titulo">
+    <h1>Bem-vindo ao Pet_world</h1>
 
+</div>
 
+<section class="home" *ngFor="let animal of animais">
+    <div class="card">
+        <p>{{animal.nome}}</p>
+        <p>{{animal.raca}}</p>
+        <p>{{animal.peso}}</p>
+   
+    </div>
+</section>

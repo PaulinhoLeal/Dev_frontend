@@ -8,6 +8,7 @@ import { ListagemAnimaisComponent } from './components/views/animal/listagem-ani
 import { AdicionarAnimalComponent } from './components/views/animal/adicionar-animal/adicionar-animal.component';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import {HttpClientModule} from "@angular/common/http";
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,9 @@ import {HttpClientModule} from "@angular/common/http";
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

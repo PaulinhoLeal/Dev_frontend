@@ -5,7 +5,7 @@ import { AdicionarAnimalComponent } from './components/views/animal/adicionar-an
 
 const routes: Routes = [
   {path:'', component:HomeComponent},
-  {path:'/adicionar-animal', component:AdicionarAnimalComponent}
+  {path:'adicionar-animal', component:AdicionarAnimalComponent}
 ];
 
 @NgModule({

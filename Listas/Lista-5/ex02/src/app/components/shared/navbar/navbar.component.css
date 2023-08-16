@@ -1,20 +1,28 @@
-menu a{
-    display: flex;
-    justify-content: space-between;
-    background-color: rgb(222, 94, 175);
-    color: chocolate;
-    font-size: 45px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-decoration: none;
+.barra{
+    margin: 0;
+    
+  
 }
-
-menu{
-    height: 50%;
+.menu {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(222, 94, 175);
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.items{
+    list-style-type: none;
     
 }
-.teste{
-    color: black;
-    height: 300px;
-    width: 250px;
-    padding: 100px;
+.items a {
+    padding: 2px;
+    margin-bottom: 2px;
+    text-decoration: none;
+    font-weight: 600;
+     border-left: 3px solid rgb(223, 149, 198); 
+     border-right: 4px solid black; 
+    border-radius: 10px;
+    
+    color: rgb(72, 4, 88);
 }
+
