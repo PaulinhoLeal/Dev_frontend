@@ -6,6 +6,7 @@
 }
 .lista-produtos>h1{
    text-align: center;
+   
 }
 
 .lista-produtos{
@@ -13,8 +14,7 @@
         font-weight: 600;
         width: 25%;
         height: 60%;
-      
-    
+        margin: 5px;
 }
 .comprar{   
     display: flex;

@@ -10,7 +10,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
-import {MatButtonModule} from '@angular/material/button';
+import {MatButton, MatButtonModule} from '@angular/material/button';
 import {MatInputModule} from '@angular/material/input';
 
 @NgModule({
@@ -27,7 +27,8 @@ import {MatInputModule} from '@angular/material/input';
     BrowserAnimationsModule,
     MatIconModule,
     MatButtonModule,
-    MatInputModule
+    MatInputModule,
+    MatButtonModule
 
   ],
   providers: [],
